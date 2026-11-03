@@ -12,6 +12,7 @@ So, I wrote this script.
 
 Now bear in mind this edit's core volumio files!!
 I have tried to make certain it's as failsafe as possible.
+If volumio has issues, and the devs see that core files have been modified they will not help you or support you.
 
 To enable actual replaygain you need to ssh into your volumio install
 and run this script from the command line with the -e or --enable flag
