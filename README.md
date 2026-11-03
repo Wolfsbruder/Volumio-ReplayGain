@@ -10,6 +10,9 @@ I do not agree with them about this.
 
 So, I wrote this script.
 
+Now bear in mind this edit's core volumio files!!
+I have tried to make certain it's as failsafe as possible.
+
 To enable actual replaygain you need to ssh into your volumio install
 and run this script from the command line with the -e or --enable flag
 then go to the playback options under setting in volume and click save under mixertype
