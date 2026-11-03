@@ -2,7 +2,7 @@ Volumio is a great audio streamer (probably the best for DIY), however, the devs
 ReplayGain (even though mpd supports it).
 They seem to feel that the user should be forced to listen to tracks 
 jumping between different gain levels in thier playback. or to use thier 'Volume normalization' plugin
-which does actually affect the sound quality in a negative way and also gobbles system resources even on an RPI-5.
+which does actually affect the sound quality in a negative way and also gobbles system resources even on an RPI-5 because it analyzes and modifies the sound playback in real-time, as opposed to using a pre-generated replay gain setting from the files own metadata.
 They seem to be rather vehement about this to the point that they 
 hardcode a block to Volumio updates if files have been changed.
 
