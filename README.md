@@ -6,13 +6,14 @@ which does actually affect the sound quality in a negative way and also gobbles 
 They seem to be rather vehement about this to the point that they 
 hardcode a block to Volumio updates if files have been changed.
 
-I do not agree with them about this.
+I do not agree with them about this. But it's their project and they make their own rules.
 
-So, I wrote this script.
+So, I wrote this script ages ago to just keep it simple s...
 
 Now bear in mind this edit's core volumio files!!
 I have tried to make certain it's as failsafe as possible.
-If volumio has issues, and the devs see that core files have been modified they will not help you or support you.
+If your volumio install has issues, and the devs see that core files have been modified they will not help you or support you.
+So if you have issue (unrelated to replaygain) restore your settings and then contacts support :)
 
 To enable actual replaygain you need to ssh into your volumio install
 and run this script from the command line with the -e or --enable flag
