@@ -11,7 +11,7 @@ I have tried to make certain it's as failsafe as possible.
 If your volumio install has issues, and the devs see that core files have been modified they will not help you or support you.
 So if you have issues (unrelated to replaygain) restore your settings (see further down the readme and use the -r or --restore flag) and then contact support :)
 
-To enable actual replaygain you need to ssh into your volumio install and run this script from the command line with the -e or --enable flag then go to the playback options under setting in volume and click save under mixertype (you could actually click any save in that section, but this is what I do).
+To enable actual replaygain you need to ssh into your volumio install and run this script from the command line with the -e or --enable flag then go to the playback options under settings in volumio and click save under mixertype (you could actually click any save in that section, but this is what I do).
 mpd will restart and ReplayGain will stay functional between reboots and config changes.
 
 Now when the Volumio devs roll out an update to Volumio, it will be blocked because a template was modified.
